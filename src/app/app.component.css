@@ -8,3 +8,14 @@ h2{
     margin: 0 auto;
     width: 25%;
 }
+input{
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+.err-output{
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}

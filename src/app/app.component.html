@@ -1,2 +1,6 @@
-<h2>{{this.title}}</h2>
-<img [src]="url" alt="">
+<div>
+    <h2>hello {{this.userName}}{{this.title}}</h2>
+    <img [src]="url" alt="" (click)="getBridgeLabzPage()">
+    <input type="text" [(ngModel)]="userName" (input)="onInput($event)">
+    <span>{{this.nameErr}}</span>
+</div>
