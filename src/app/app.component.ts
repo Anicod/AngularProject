@@ -24,6 +24,6 @@ export class AppComponent {
       this.nameErr = ""
       return;
     }
-    this.nameErr = "name is not valid"
+      this.nameErr = "name is not valid"
   }
 }
